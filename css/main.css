@@ -51,6 +51,13 @@ body {
         line-height: 60px;
         color: white;
         margin: inherit;
+        opacity: 1;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        opacity: 0.3;
     }
 }
 

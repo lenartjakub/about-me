@@ -37,6 +37,11 @@ body {
     margin: 20px;
 }
 
+.container .title {
+    font-size: 40px;
+    color: white;
+}
+
 .container div {
     margin: 5px 5px 5px 5px;
 }
@@ -61,9 +66,34 @@ body {
     }
 }
 
+.container .content a {
+    color: #2b2d2f;
+    margin: 3px 3px 3px 3px;
+}
+
 .responsive-img {
     margin: 5px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
 }
